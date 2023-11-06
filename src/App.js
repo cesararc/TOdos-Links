@@ -1,10 +1,13 @@
-import logo from './platzi.webp';
+import { LinksToVisit } from './LinksToVisit';
+import { LinkSearch } from './LinkSearch';
+import { LinkList } from './LinkList';
+import { CreateLink } from './CreateLink';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <LinkCounter />
+      <LinksToVisit />
       <LinkSearch />
 
       <LinkList>
